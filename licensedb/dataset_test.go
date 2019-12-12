@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/api"
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/filer"
+	"github.com/n8wb/blackfriday/licensedb/api"
+	"github.com/n8wb/blackfriday/licensedb/filer"
 
 	"github.com/stretchr/testify/assert"
 )
