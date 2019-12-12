@@ -30,5 +30,5 @@ require (
 replace (
 	github.com/sergi/go-diff v1.0.0 => github.com/sergi/go-diff v0.0.0-20180205163309-da645544ed44
 	golang.org/x/text v0.3.2 => golang.org/x/text v0.3.0
-	gopkg.in/russross/blackfriday.v2 => github.com/russross/blackfriday/v2 v2.0.1
+	gopkg.in/russross/blackfriday.v2 => github.com/russross/blackfriday v2.0.1
 )
