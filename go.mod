@@ -1,5 +1,4 @@
-module gopkg.in/n8wb/go-license-detector.v3
-
+module github.com/n8wb/go-license-detector
 require (
 	github.com/dgryski/go-metro v0.0.0-20180109044635-280f6062b5bc // indirect
 	github.com/dgryski/go-minhash v0.0.0-20170608043002-7fe510aff544 // indirect
