@@ -17,11 +17,11 @@ import (
 	"github.com/ekzhu/minhash-lsh"
 	"github.com/sergi/go-diff/diffmatchpatch"
 
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/filer"
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/internal/assets"
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/internal/fastlog"
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/internal/normalize"
-	"gopkg.in/src-d/go-license-detector.v3/licensedb/internal/wmh"
+	"github.com/n8wb/go-license-detector/licensedb/filer"
+	"github.com/n8wb/go-license-detector/licensedb/internal/assets"
+	"github.com/n8wb/go-license-detector/licensedb/internal/fastlog"
+	"github.com/n8wb/go-license-detector/licensedb/internal/normalize"
+	"github.com/n8wb/go-license-detector/licensedb/internal/wmh"
 )
 
 var (
