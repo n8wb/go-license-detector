@@ -4,9 +4,9 @@ import (
 	"errors"
 	paths "path"
 
-	"github.com/n8wb/blackfriday/licensedb/api"
-	"github.com/n8wb/blackfriday/licensedb/filer"
-	"github.com/n8wb/blackfriday/licensedb/internal"
+	"gopkg.in/src-d/go-license-detector.v3/licensedb/api"
+	"gopkg.in/src-d/go-license-detector.v3/licensedb/filer"
+	"gopkg.in/src-d/go-license-detector.v3/licensedb/internal"
 )
 
 var (

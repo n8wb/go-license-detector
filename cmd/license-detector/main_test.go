@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/n8wb/blackfriday/licensedb"
+	"gopkg.in/src-d/go-license-detector.v3/licensedb"
 )
 
 func TestCmdMain(t *testing.T) {
