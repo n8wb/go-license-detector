@@ -7,6 +7,7 @@ require (
 	github.com/ekzhu/minhash-lsh v0.0.0-20171225071031-5c06ee8586a1
 	github.com/hhatto/gorst v0.0.0-20171128071645-7682c8a25108
 	github.com/jdkato/prose v1.1.0
+	github.com/jteeuwen/go-bindata v3.0.8-0.20180305030458-6025e8de665b+incompatible // indirect
 	github.com/montanaflynn/stats v0.0.0-20151014174947-eeaced052adb // indirect
 	github.com/neurosnap/sentences v1.0.6 // indirect
 	github.com/pkg/errors v0.8.1
@@ -20,7 +21,6 @@ require (
 	golang.org/x/text v0.3.2
 	gonum.org/v1/gonum v0.0.0-20180205154402-996b88e8f894
 	gopkg.in/neurosnap/sentences.v1 v1.0.6 // indirect
-	gopkg.in/russross/blackfriday.v2 v2.0.1
 	gopkg.in/src-d/go-billy-siva.v4 v4.3.0
 	gopkg.in/src-d/go-billy.v4 v4.3.2
 	gopkg.in/src-d/go-git.v4 v4.13.1
@@ -30,5 +30,6 @@ require (
 replace (
 	github.com/sergi/go-diff v1.0.0 => github.com/sergi/go-diff v0.0.0-20180205163309-da645544ed44
 	golang.org/x/text v0.3.2 => golang.org/x/text v0.3.0
-	gopkg.in/russross/blackfriday.v2 => github.com/russross/blackfriday v2.0.1
 )
+
+go 1.13
